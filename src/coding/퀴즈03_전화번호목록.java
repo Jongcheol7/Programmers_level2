@@ -1,6 +1,5 @@
 package coding;
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class 퀴즈03_전화번호목록 {
@@ -31,9 +30,7 @@ class Solution03 {
     			}
     		}
     	}
-        
-  
-        
+ 
         return true;
     }
 }
