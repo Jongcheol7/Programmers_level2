@@ -23,11 +23,15 @@ class Solution06 {
         	list.add(Integer.toString(numbers[i]));
         }
         
+        System.out.println(list);
+        
         Collections.sort(list, new Comparator<String>() {
         	public int compare(String s1, String s2) {
         		return (s2+s1).compareTo(s1+s2);
         	}
         });
+        
+        System.out.println(list);
         
         if(list.get(0).startsWith("0")) {
         	return "0";

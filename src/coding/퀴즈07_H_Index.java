@@ -19,7 +19,6 @@ class Solution07 {
         Arrays.sort(citations);
         System.out.println(Arrays.toString(citations));
         
-        int max = 0;
         for(int i=citations[citations.length-1]; i>=0; i--) {
         	int up = 0;
         	for(int j=0; j<citations.length; j++) {
@@ -30,6 +29,7 @@ class Solution07 {
         		break;
         	}
         }
+
         
         return answer;
     }
